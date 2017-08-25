@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat '"echo fail!";exit 1'
+                bat 'set'
             }
         }
     }
